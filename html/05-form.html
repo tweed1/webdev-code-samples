@@ -9,9 +9,9 @@
   <body>
     <main>
       <form action="/submit">
-        <h1>Contact Details</h1>
+        <h1>Submit a Question</h1>
         <div>
-          <label for="name">Name:</label>
+          <label for="name">Full Name:</label>
           <input type="text" id="name" name="name" />
         </div>
         <br />
@@ -20,13 +20,32 @@
           <input type="email" id="email" name="email" />
         </div>
         <br />
+        <fieldset>
+          <legend>Which class section are you enrolled in?</legend>
+          <input type="radio" id="cs463" name="section" />
+          <label for="cs463">CS 463</label>
+          <input type="radio" id="cs563" name="section" />
+          <label for="cs563">CS 563</label>
+        </fieldset>
+        <br />
         <div>
-          <label for="class-select">Class Standing:</label>
-          <select name="class" id="class-select">
-            <option value="">Select One</option>
-            <option value="undergrad">Undergrad</option>
-            <option value="grad">Graduate</option>
+          <label for="topic">What topic do you have a question about?:</label>
+          <select id="topic" name="topic">
+            <option value="">Select One:</option>
+            <option value="git">Git</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+            <option value="http">HTTP</option>
+            <option value="node">Node.js</option>
+            <option value="deployment">Deployment</option>
           </select>
+        </div>
+        <br />
+        <div>
+          <label for="question">What is your question?</label>
+          <br />
+          <textarea name="textarea" id="question" name="question"></textarea>
         </div>
         <br />
         <div>
