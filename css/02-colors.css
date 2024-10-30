@@ -25,6 +25,11 @@ body {
 .color-entry {
   margin: 0;
   margin-top: 0.4em;
+  /* margin: top, right, left, bottom
+    margin: 10px (applies to all sides
+    margin: 10, 30 (top and bottom, sides)
+  */
+
   font-size: 1.4em;
   text-align: center;
 }

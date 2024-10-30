@@ -5,7 +5,7 @@ ul {
   padding: 0;
   margin: 0;
 }
-
+/* removing style from list like ol (ordered list) */
 li {
   list-style-type: none;
 }
@@ -73,12 +73,17 @@ tr.second {
 
 /************* Pseudo-classes and Pseudo-Elements *************/
 
-/* pseudo-class selector */
+/* pseudo-class selector changes hover background color. .1 is percentage color */
 tr:hover {
   background-color: rgba(139, 0, 0, 0.1);
 }
 
-/* pseudo-class and pseudo-element selector */
+/* pseudo-class and pseudo-element selector: selecting first letter of left column (first of its type)*/
 tr > td:first-of-type::first-letter {
   font-size: 1.5em;
 }
+
+/* 
+.row:nth-child(odd{
+  background-color: car(--green);)
+*/
