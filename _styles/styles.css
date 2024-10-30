@@ -19,7 +19,7 @@
   --navy: #000080;
   --blue: #1e90ff;
   --violetred: #c71585;
-  --orange: #ffa500;
+  --orange: #a75702;
   --red: #dc143c;
   --green: #006400;
 }
@@ -28,6 +28,10 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.2em;
   color: var(--gray1);
+}
+
+h1 {
+  text-align: center;
 }
 
 .form {

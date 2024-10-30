@@ -4,27 +4,27 @@
 }
 
 body {
-  font-size: 1em;
+  color: var(--black);
 }
 
 .color-block {
   display: flex;
   flex-flow: row wrap;
+  font-size: 0.75em;
 }
 
 .box {
   box-sizing: border-box;
-  width: 250px;
-  height: 140px;
+  width: 200px;
   margin-right: 0.5em;
   padding: 0.5em;
-  border: 1px solid black;
+  border: 1px solid var(--black);
   background-color: var(--black);
 }
 
 .color-entry {
   margin: 0;
-  margin-top: 0.4em;
+  margin: 0.4em 0;
   /* margin: top, right, left, bottom
     margin: 10px (applies to all sides
     margin: 10, 30 (top and bottom, sides)

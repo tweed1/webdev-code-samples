@@ -36,7 +36,7 @@ td {
   padding: 5px;
 }
 
-/* select all elements of type 'tr' with class 'first' */
+/* select all elements of type 'tr' with class 'second' */
 tr.second {
   color: var(--red);
 }
@@ -55,7 +55,7 @@ tr.second {
 }
 
 /* child selector */
-/* would not work since <li> is not a direct descendant */
+/* would not work since <li> is not a child, or direct descendant of .row */
 .row > li {
   color: var(--blue);
 }
